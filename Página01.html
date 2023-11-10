@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 01 - HTML</title>
+</head>
+<body>
+
+    <h1 class="textooutras">Página 01 - HTML</h1>
+
+    <p class="paragrafos-paginas">Criada pelo britânico Tim Berners-Lee, o acrônimo HTML significa HiperText Markup Language, traduzindo ao 
+        português: Linguagem de Marcação de Hipertexto.  O HTML é o componente básico da web, ele permite inserir o conteúdo e estabelecer a 
+        estrutura básica de um website. Portanto, ele serve para dar significado e organizar as informações de uma página na web. Sem isso, o 
+        navegador não saberia exibir textos como elementos ou carregar imagens e outros conteúdos.</p>
+    <p class="paragrafos-paginas">Os hipertextos são conjuntos de elementos conectados. Esses podem ser palavras, imagens, vídeos, documento, etc.
+         Quando conectados, formam uma rede de informações que permite a comunicação de dados, organizando conhecimentos e guardando informações.</p>
+    <p class="paragrafos-paginas">Ao visitar uma página simples na web, você pode perceber que existem diferentes distribuições e tamanhos para 
+        títulos, parágrafos, imagens, vídeos e qualquer outro elemento. Essa estrutura é estabelecida através do HTML. No inicio da web, era comum 
+        encontrar sites apenas contendo textos e imagens simples, com estrutura básica e sem estilizações. Porém, nos dias atuais, muito dificilmente
+         você encontrará sites que possuam apenas elementos HTML. Portanto, podemos considerar o HTML o “esqueleto” da sua página.</p>
+    <p class="paragrafos-paginas">Imagine então que além do esqueleto, é necessário ter o corpo. Para isso, temos então as linguagens CSS e o JavaScript,
+        s que em conjunto com HTML, formam a base para todos os websites atuais. </p>
+
+    
+    
+    <label for="volta">voltar para a página?</label>
+    <input type="checkbox" id="volta">
+
+    <a href="#"><input type="button" class="botaoderetorno" value="Retornar" onclick="retorna()"></a>
+    
+<script>
+    function retorna(){
+    if((volta.checked)){
+        window.location.href="index.html"
+    }
+    }
+</script>
+</body>
+
+</html>

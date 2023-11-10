@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="functions/funcoes.js"></script>
+    <link rel="shortcut icon" href="images/fav-fisio.ico">
+    <link rel="stylesheet" href="style/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Blog</title>
+</head>
+
+<body>
+
+    <section class="conteudo">
+        <p>02 de Outubro de 2023</p>
+        <br>
+        <h1>Primeira Publicação do Blog do Programador</h1>
+        <br>
+        <details>
+            <div class="conteudodiv">
+                <div class="itens">
+                    <a href="Página01.html"><input type="button" class="pardiv" value="Html"></input></a>
+                </div>
+                <div class="itens">
+                    <a href="Página02.html"><input type="button" class="pardiv" value="Css"></input></a>
+                </div>
+                <div class="itens">
+                    <a href="Página03.html"><input type="button" class="pardiv" value="JavaScript"></input></a>
+                </div>
+                <!--<div class="itens">
+                <a href="pgnaoclique.html"><input type="button" class="pardiv" value="Não Clique"></input></a>
+            </div>-->
+            </div>
+        </details>
+    </section>
+
+    <section class="conteudo">
+        <p>03 de Outubro de 2023</p>
+        <br>
+        <h1>Segunda Publicação do Blog do Programador</h1>
+        <br>
+        <details>
+            <div class="conteudodiv">
+                <div class="itens">
+                    <a href="#" onclick="valida()"><input type="button" class="pardiv" value="NodeJs"></input></a>
+                </div>
+                <div class="itens">
+                    <a href="ReactJs.html"><input type="button" class="pardiv" value="ReactJs"></input></a>
+                </div>
+                <div class="itens"></div>
+            </div>
+        </details>
+    </section>
+
+    <section class="conteudo">
+        <p>04 de Outubro de 2023</p>
+        <br>
+        <h1>Terceira Publicação do Blog do Programador</h1>
+        <br>
+        <details>
+        <br>
+        Qual jogo você gosta?
+        <br><br>
+        <select name="passatempo" id="passatempo" oninput="atualizaimg()">
+            <option  value="Minecraft" >Minecraft</option>
+            <option  value="Super-Mario">Super-Mario</option>
+            <option  value="AmongUs">AmongUs</option>
+        </select>
+            <br>
+            <div class="imagematualiza">
+                <img id="imgs" src="#">
+            </div>
+        
+    </details>
+    </section>
+
+</body>
+
+</html>
